@@ -1,0 +1,58 @@
+/* Container styling */
+:host {
+  display: block;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  color: #d32f2f;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+/* Confirmation message */
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Buttons container for spacing */
+button {
+  margin: 0 10px;
+  padding: 10px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+/* Confirm delete button - red */
+button:first-of-type {
+  background-color: #d32f2f;
+  color: #fff;
+}
+
+button:first-of-type:hover {
+  background-color: #b71c1c;
+}
+
+/* Cancel button - neutral */
+button:last-of-type {
+  background-color: #e0e0e0;
+  color: #444;
+}
+
+button:last-of-type:hover {
+  background-color: #bdbdbd;
+}

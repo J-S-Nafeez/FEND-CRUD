@@ -1,0 +1,68 @@
+/* Container styling */
+.people-list-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.people-list-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Table styles */
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.people-table thead {
+  background-color: #1976d2; /* Blue header */
+  color: white;
+}
+
+.people-table th, 
+.people-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.people-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Action buttons */
+.action-btn {
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  margin-right: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #135ba1;
+}
+
+.action-btn.delete {
+  background-color: #d32f2f;
+}
+
+.action-btn.delete:hover {
+  background-color: #9a2323;
+}
